@@ -1,23 +1,26 @@
 # Chat Engine
- real time chat application using Websockets and Django Channels 
+ Real Time Chat application using Websockets and Django Channels 
 
 ## How to install
 
 ### Server
 
-1. Change directory: `cd server`
+1. Change directory: `cd backend/chat`
 2. Create new database
 3. Import dump from `dump.sql`
-4. Create `config.py` using provided example in `config.py.example`
+4. Create `settings.py` using provided example in `settings.py.example`
 5. Install all requirements: `pip3 install -r requirements.txt`
-6. Run app server: `flask run`
+6. Run app server
+
+### Screenshots
+<img src="https://github.com/pjdurden/Chat-Engine/blob/master/68747470733a2f2f692e706f7374696d672e63632f317a6b56624c56382f746573742e706e67.png">
 
 ### Client
 
-1. Change directory: `cd client`
-2. Create configuration file `.env` using provided example in `.env.example`
+1. Change directory to backend
+2. Create configuration file.
 3. Install libraries: `yarn install`
-4. Compile and hot-reload for development: `yarn run serve`
+4. Compile and hot-reload for development
 5. ..or build minified version for production: `yarn run build`
 
 
