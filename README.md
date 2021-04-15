@@ -6,10 +6,10 @@
 ### Server
 
 1. Change directory: `cd backend/chat`
-2. Create new database
-3. Import dump from `dump.sql`
+2. Create new DB(database)
+3. Import dump from the directory
 4. Create `settings.py` using provided example in `settings.py.example`
-5. Install all requirements: `pip3 install -r requirements.txt`
+5. Install requirements using pip: `pip3 install -r requirements.txt`
 6. Run app server
 
 ### Screenshots
@@ -18,15 +18,15 @@
 ### Client
 
 1. Change directory to backend
-2. Create configuration file.
+2. Create config file.
 3. Install libraries: `yarn install`
-4. Compile and hot-reload for development
+4. Compile and reload for development
 5. ..or build minified version for production: `yarn run build`
 
 
 ## Features
 
-- responsive design
-- send and view messages
-- client and backend side validation
-- easy to extend
+- Responsive and materialistic design
+- send,view and Share messages
+- client and backend side message validation
+- easy to scale
