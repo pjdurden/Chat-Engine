@@ -13,7 +13,7 @@
 6. Run app server
 
 ### Screenshots
-<img src="https://github.com/pjdurden/Chat-Engine/blob/master/68747470733a2f2f692e706f7374696d672e63632f317a6b56624c56382f746573742e706e67.png">
+<img src="https://github.com/pjdurden/Chat-Engine/blob/master/django%20chat.png">
 
 ### Client
 
